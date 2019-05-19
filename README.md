@@ -19,8 +19,8 @@ _Il webhook serve a telegram per comunicarci tutti gli update che il bot deve ri
 **_Per settare il webhook dobbiamo fare una richiesta alle API HTTPS di telegram_**
 _Ovviamente le {} devono essere rimosse_
 * {TOKEN} = Token del nostro bot
-* {Dominio} = Potrebbe essere anche mattiabl.it
-* {Directory} = directory che conduce alla index.php 
+* {DOMAIN} = Potrebbe essere anche mattiabl.it
+* {DIRECTORY} = directory che conduce alla index.php 
 * {KEY} = Key data dal bot che abbiamo salvato in precendeza
 
 https://api.telegram.org/bot{TOKEN}/setwebhook?url=https://{DOMAIN}/{DIRECTORY}/index.php?fpam={KEY}%26token={TOKEN}
